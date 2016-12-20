@@ -23,7 +23,8 @@ li.reg {
 
 }
 .hidench, 
-.hiden1 {
+.hiden1,
+.regadap {
 	display: none;
 }
 

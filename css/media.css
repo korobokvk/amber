@@ -6,12 +6,14 @@
 	body {
 		display: block;
 		position: relative;
+		overflow: hidden;
+		width: 100vw;
 	}
 	.hidench {
 		display: inline;
-		position: absolute;
-		right: 15px;
-		top: 15px;		
+		position: relative;
+		left: 150px;
+		top: 2px;		
 		vertical-align: middle;
 		background-color: black;
 		border: none;
@@ -24,9 +26,9 @@
 	}
 	.hiden1 {
 		display: inline;
-		position: absolute;
-		right: 15px;
-		top: -30px;	
+		position: relative;
+		left: 355px;
+		top: -3em;	
 		vertical-align: middle;
 		background-color: #85939f;
 		border: none;
@@ -40,24 +42,46 @@
 	ul.none1 {
 		display: none;
 	}
+	ul.adaptlog {
+		display: block;
+		
+		font-size: 25px;
+		line-height: 50px;
+		padding: 25px;		
+	}
+	ul.adaptlog li a {
+		text-decoration: none;
+		color: #85939f;
+	}
+	ul.adaptlog li a:hover {
+		color: white;
+	}
 	div.regadap {
 		position: absolute;
-		/*display: none;*/
-		/*visibility: hidden;*/
+		display: none;
 		right: 15px;
-		top: 15px;
-		width: 100%;
-		height: auto;
-		background-color: red;
-		border-radius: 5px;
+		top: 0px;
+		width: 217px;
+		height: 150px;		
+		padding: 0;
+		margin: 0;			
+		left: 200px;
+		line-height: 150px;
+		transition: left 2s, display;
 	}
+
 	.hidench:focus + .regadap {	
-		display: block;
-		position: absolute;
-		background-color: black;
-		width: 1000px;
-		height: 1000px;
+		border: none;
+		display: inline-block;		
+		background-color: rgba(0, 0, 0, 0.5);	
 		z-index: 9999;
+		left: -10px;			
+	}
+	.hidench:focus + .hiden1 {
+		display: none; 		
+	}
+	.hidench:focus {
+		border: none;
 	}
 	
 }
