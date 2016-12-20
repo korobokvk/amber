@@ -3,10 +3,68 @@
 @media only screen and (max-width : 992px) {
 }
 @media only screen and (max-width : 768px) {
+	body {
+		display: block;
+		position: relative;
+	}
+	.hidench {
+		display: inline;
+		position: absolute;
+		right: 15px;
+		top: 15px;		
+		vertical-align: middle;
+		background-color: black;
+		border: none;
+		text-align:center;
+		width: 24px;
+		height: 24px;		
+		background-image: url(../img/acc.png);
+		background-repeat: no-repeat;
+		
+	}
+	.hiden1 {
+		display: inline;
+		position: absolute;
+		right: 15px;
+		top: -30px;	
+		vertical-align: middle;
+		background-color: #85939f;
+		border: none;
+		text-align:center;
+		width: 24px;
+		height: 24px;		
+		background-image: url(../img/menu.png);
+		background-repeat: no-repeat;
+	}	
+	ul.none, 
+	ul.none1 {
+		display: none;
+	}
+	div.regadap {
+		position: absolute;
+		/*display: none;*/
+		/*visibility: hidden;*/
+		right: 15px;
+		top: 15px;
+		width: 100%;
+		height: auto;
+		background-color: red;
+		border-radius: 5px;
+	}
+	.hidench:focus + .regadap {	
+		display: block;
+		position: absolute;
+		background-color: black;
+		width: 1000px;
+		height: 1000px;
+		z-index: 9999;
+	}
+	
 }
 @media only screen and (max-width : 728px) {
 }
 @media only screen and (max-width : 480px) {
-}
+	
+	
 @media only screen and (max-width : 320px) {
 }

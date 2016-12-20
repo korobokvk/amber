@@ -22,6 +22,11 @@ li.reg {
 	margin-right: 50px;
 
 }
+.hidench, 
+.hiden1 {
+	display: none;
+}
+
 a.reg {
 	text-decoration: none;
 	color: #85939f;
@@ -150,6 +155,9 @@ ul.menu li:nth-child(7)::before {
 	position: absolute;
 	content: '';
 }
+
+
+
 ul.menu li:first-child:hover {
 	background-color: #ffae00;
 
@@ -177,5 +185,5 @@ ul.menu li:nth-child(6):hover {
 ul.menu li:nth-child(7):hover {
 	background-color: #0c8fcc;
 
-
 }
+
