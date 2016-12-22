@@ -44,7 +44,7 @@
 	}
 	ul.adaptlog {
 		display: block;
-		
+		position: absolute;
 		font-size: 25px;
 		line-height: 50px;
 		padding: 25px;		
@@ -58,7 +58,7 @@
 	}
 	div.regadap {
 		position: absolute;
-		display: none;
+		display: block;
 		right: 15px;
 		top: 0px;
 		width: 217px;
