@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Yellowtail');
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+.latesblog-block {
+	background-color: white;
+	height: 770px;
+
+}
+.lates-blog-main {
+	margin-top: 100px;
+	font-size: 36px;
+	font-family: 'Oxygen';
+	color: gray;
+}
+.blog1,
+.blog2,
+.blog3 {
+	margin-top: 60px;
+	width: 290px;
+	display: inline-block;
+	text-align: center;
+	border-bottom: 1px solid gray;
+	padding-bottom: 25px;
+}
+.wrap-blog .col-md-4 {
+	padding: 0;
+	text-align: center;
+	width: 290px;
+	margin: 10px;
+}
+.blog1img,
+.blog2img,
+.blog3img {
+	display: inline-block;
+	text-align: center;
+}
+.wrap-blog {
+	display: inline-block;
+}
+.blog1charpet,
+.blog2charpet,
+.blog3charpet {
+	text-align: left;
+	font-size: 24px;
+	color: #02baab;
+	font-family: 'Oxygen';
+}
+.blogtext1,
+.blogtext2,
+.blogtext3 {
+	text-align: left;
+	font-size: 13.5px;
+	font-family: 'Oxygen';
+	margin-top: 30px;
+}
+.learnmore {
+	text-align: left;
+	position: relative;
+	left: -10px;
+}
+.coments {
+	color: #02baab;
+}
