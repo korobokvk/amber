@@ -3,7 +3,7 @@
 
 .latesblog-block {
 	background-color: white;
-	height: 770px;
+	height: 435;
 
 }
 .lates-blog-main {
@@ -27,6 +27,7 @@
 	text-align: center;
 	width: 290px;
 	margin: 10px;
+	margin-bottom: 90px;
 }
 .blog1img,
 .blog2img,
