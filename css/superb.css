@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Yellowtail');
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+div.superb-main {
+	height: 565px;	
+}
+
+i.fa-star,
+i.fa-magic,
+i.fa-trophy,
+i.fa-cloud-upload {
+	color: #02baab;
+	font-size: 40px;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	margin-right: 40px;
+	margin-top: 45px;
+}
+span.brilliant-heder,
+span.incredible-heder,
+span.mouse-heder,
+span.responcive-heder {
+	font-size: 25px;
+	font-family: 'Oxygen', regular;
+	text-align: left;
+	margin-top: 45px;
+}
+
+span.brilliant-text,
+span.incredible-text,
+span.mouse-text,
+span.responcive-text {
+	margin-top: 25px;
+	font-size: 14px;
+	font-family: 'Oxygen', regular;
+	margin-top: 15px;
+	display: block;
+}
+div.left-superb,
+div.right-superb {
+	margin-top: 40px;
+	margin-left: 350px;
+
+}
+h1.superb {
+	font-family: 'Oxygen', regular; 
+	font-size: 36px;
+	text-align: center;
+	display: block;
+}
